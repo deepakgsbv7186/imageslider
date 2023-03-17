@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #13005A;
+    color:#03C988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* .container{
+
+} */
+
+.top{
+    display:flex;
+    align-items: center;
+    gap: 50px;
+}
+.arrow{
+    height: 150px;
+    cursor:pointer;
+}
+.left{
+    transform: rotate(180deg);
+}
+.frame{
+    width:800px;
+    height:500px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slider{
+    display: flex;
+    transition: all 1s ease;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Bottom dots */
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #03C988;
+    cursor: pointer;
+}
